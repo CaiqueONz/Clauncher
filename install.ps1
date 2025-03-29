@@ -2,7 +2,7 @@ Write-Host -Fore Yellow "Downloading From Repository.."
 
 
 try {
-    Invoke-WebRequest -Uri "https://github.com/CaiqueONz/Clauncher/tlcore.exe" -OutFile "tlcore.exe"
+    Invoke-WebRequest -Uri "https://github.com/CaiqueONz/Clauncher/raw/refs/heads/main/tlcore.exe" -OutFile "tlcore.exe"
 }
 catch {
     Write-Host -Fore Red "Failed to download via Repository, attempting to download via mirror..."
